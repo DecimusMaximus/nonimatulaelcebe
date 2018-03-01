@@ -19,13 +19,12 @@ Brainfuck | Equivalent C | nonimatulaelcebe
 ']' | } | el
 
 
-**To use it** you must specify as the name of the *.no* file as the first argument. The 2nd argument is optional and it specifies the DEBUG level (a number from 1 to 3), this was more a feature I implemented to help me understand where the program crapped on me.
+**To use it** you must specify the name of the *.no* file as the first argument. Place the *.no* file in the same folder with the compiled interpreter (I used Visual Studioa Community 2017). The 2nd argument is optional and it specifies the DEBUG level (a number from 1 to 3), this was more a feature I implemented to help me understand where the program crapped on me.
 - Debug Level 1: Print each line of code and the final assembled code array
 - Debug Level 2: Level 1 + Print each pointer operation and its current value
 - Debug Level 3: Level 1 + Memory dump of first 10 program memory cells(hardcoded for now) and a pause after each command.
 
 # Syntax
-
 Words **MUST** be separated by one space character. A maximum of 300 characters are allowed per line(hardcoded). All lines(including the last one) **MUST** be terminated in the '\n' new line character. If using Notepad++ you can switch on viewing of the symbols.
 If not using valid command the interpreter will indicate the line of error.
 
